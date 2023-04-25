@@ -44,7 +44,7 @@ function App() {
       <Divider h="50px" />
       <Box>
         <Box textAlign={"left"} mb={2}>
-          {comments.length > 0 && <Text>{comments.length} Comments</Text>}
+          {comments.length > 0 && <Text>{comments.length} Comment(s)</Text>}
         </Box>
         {comments.map((details, index) => (
           <Comment details={details} key={index} />
